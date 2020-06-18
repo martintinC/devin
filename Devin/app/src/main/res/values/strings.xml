@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Devin</string>
+    <string name="nombre_deviner">Number to guess : </string>
+    <string name="nombre_selectionn">Number selected : </string>
+    <string name="menu">Menu</string>
+    <string name="rejouer">Play again</string>
+    <string name="score">Score : </string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="score_actuel">Current score :</string>
+    <string name="score_max">Max Score :</string>
+    <string name="score_min">Min score :</string>
+    <string name="jeux_gagn_s">Won games :</string>
+    <string name="jeux_perdus">Lost games :</string>
+    <string name="retour">Back to home</string>
+    <string name="stats">Statistics</string>
+    <string name="jouer">Play</string>
+    <string name="le">on the</string>
+</resources>

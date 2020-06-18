@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Les elements sont placés les uns par rapport au autres -->
+    <!-- C'est l'image qui s'adaptera aux differents ecrans -->
+
+    <TextView
+        android:id="@+id/nb_al"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_deviner"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/nb_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_selectionn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/nb_al"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="5dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/menu"
+        android:background="#2677D4"
+        android:onClick="menu"
+        />
+
+    <Button
+        android:id="@+id/rejouer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/menu"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="5dp"
+        android:text="@string/rejouer"
+        android:background="#60D426"
+        android:onClick="rejouer"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rejouer"
+        android:textStyle="bold"
+        android:text="@string/score"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+
+    <ImageView
+        android:id="@+id/imgFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gagne"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/nb_user"
+        android:layout_above="@id/score"/>
+
+
+
+</RelativeLayout>

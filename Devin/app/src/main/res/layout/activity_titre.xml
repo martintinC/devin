@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- bouton stats centré horizontalement, placé en bas de l'ecran -->
+    <Button
+        android:id="@+id/boutonStats"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/stats"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="#2677D4"
+        android:onClick="stats"
+        />
+
+    <!-- bouton jouer centré horizontalement, placé au dessus de stats -->
+    <Button
+        android:id="@+id/boutonJouer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/jouer"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/boutonStats"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="#60D426"
+        android:onClick="jouer"
+        />
+
+    <!-- image du jeu centrée entre le haut de l'ecran et le haut du bouton jouer -->
+    <ImageView
+        android:id="@+id/imgTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/boutonJouer"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/titre"/>
+
+
+
+</RelativeLayout>

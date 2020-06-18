@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Devin</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="jeux_gagn_s">Jeux gagnés :</string>
+    <string name="jeux_perdus">Jeux perdus :</string>
+    <string name="jouer">Jouer</string>
+    <string name="menu">Menu</string>
+    <string name="nombre_deviner">Nombre à deviner :</string>
+    <string name="nombre_selectionn">Nombre selectionné :</string>
+    <string name="rejouer">Rejouer</string>
+    <string name="retour">Retour</string>
+    <string name="score">Score :</string>
+    <string name="score_actuel">Score actuel :</string>
+    <string name="score_max">Score max :</string>
+    <string name="score_min">Score min :</string>
+    <string name="stats">Statistiques</string>
+    <string name="le">le</string>
+</resources>

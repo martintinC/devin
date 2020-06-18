@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <!-- Les textViews sont centrés horizontalement, placé les uns par rapport aux autres (layout_below) -->
+        <!-- ils sont tous placés dans un relative layoute et centré au centre de ce dernier -->
+        <TextView
+            android:id="@+id/score_actuel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score_actuel"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/score_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score_max"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/score_actuel"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/score_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score_min"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/score_max"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/jeux_gagne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jeux_gagn_s"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/score_min"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/jeux_perdu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jeux_perdus"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/jeux_gagne"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+
+
+    </RelativeLayout>
+
+    <!-- bouton retour centré horizontalement, placé en bas de l'ecran -->
+    <Button
+        android:id="@+id/retour"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/retour"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="#2677D4"
+        android:onClick="menu"/>
+
+
+
+</RelativeLayout>

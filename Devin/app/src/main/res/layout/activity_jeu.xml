@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Deux LinearLayout pour separer l'ecran en deux, avec deux boutons par LinearLayout -->
+    <!-- Chaque bouton occupe le maximun de place verticalement et partage l'espace horizontal avec son voisin -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bouton1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="@string/_1"
+            android:background="#2677D4"
+            android:onClick="bouton1"
+            android:textSize="100sp"
+        />
+
+        <Button
+            android:id="@+id/bouton2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="@string/_2"
+            android:background="#2677D4"
+            android:onClick="bouton2"
+            android:textSize="100sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bouton3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="@string/_3"
+            android:background="#2677D4"
+            android:onClick="bouton3"
+            android:textSize="100sp"
+            />
+
+        <Button
+            android:id="@+id/bouton4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="@string/_4"
+            android:background="#2677D4"
+            android:onClick="bouton4"
+            android:textSize="100sp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
